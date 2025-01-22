@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio website! This project showcases my skills, projects, and professional journey in a visually appealing and interactive way. Built using React, it integrates modern libraries and design principles to deliver an engaging user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `yarn start`
+- **Interactive Design**: Modern and responsive layout for an optimal experience on all devices.
+- **Dynamic Components**: Smooth animations and transitions using React.
+- **Skills Showcase**: A visually appealing skills section with gradient transitions.
+- **Contact Section**: Easy-to-use form for visitors to get in touch.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `yarn test`
+- **React**: For building the interactive UI components.
+- **Material-UI**: For ready-to-use, customizable components and layouts.
+- **CSS/SASS**: For styling and creating advanced animations.
+- **React Icons**: For adding visually appealing icons.
+- **Axios**: For handling API calls (if applicable).
+- **React Router**: For seamless navigation between pages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+## 📚 Libraries Installed
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ensure you have the following libraries installed to run this project:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+npm install react-icons
+npm install react-router-dom
+npm install axios
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `yarn eject`
+## 🖥️ Installation Guide
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the Repository**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/deshpande-atharva/portfolio-website.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Navigate to the Project Directory**:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   cd portfolio-website
+   ```
 
-## Learn More
+3. **Install Dependencies**:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Start the Development Server**:
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎥 Reference
 
-### Analyzing the Bundle Size
+This project was inspired by the tutorial series by [Lama Dev](https://www.youtube.com/channel/UCOxWrX5MIdXIeRNaXC3sqIg). Check out the video I referred to for guidance: [Build a Modern Portfolio Website with React](https://www.youtube.com/watch?v=3HNyXCPDQ7Q&list=PLkY85cDHOEpulGsljjol5aPMfJOaM0tJI&index=1).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 📂 Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+portfolio-website/
+├── public/
+├── src/
+│   ├── components/     # Reusable React components
+│   ├── pages/          # Pages of the website
+│   ├── styles/         # SASS/CSS files
+│   ├── App.js          # Main application file
+│   └── index.js        # Entry point
+├── .gitignore          # Ignored files
+├── package.json        # Dependencies and scripts
+└── README.md           # Project documentation
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🌟 Highlights
 
-### Deployment
+### **Skills Section**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The background of the skills section transitions smoothly from white to black, creating a visually appealing separation from other sections.
 
-### `yarn build` fails to minify
+### **Navigation**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The website uses React Router for seamless transitions between sections like Home, Projects, Skills, and Contact.
+
+---
+
+## 📬 Contact
+
+Feel free to reach out to me if you have any questions or feedback about my portfolio!
+
+- **Email**: (mailto:deshpande.atha@northeastern.edu)
+- **GitHub**: (https://github.com/deshpande-atharva)
+- **LinkedIn**: (https://linkedin.com/in/atharva-deshpande0205)
+
+---
+
+## 🔧 Future Enhancements
+
+- Add a blog section to share insights and tutorials.
+- Optimize for SEO to increase visibility.
+- Introduce a dark mode toggle for better user experience.
+- Add backend logic to the project so that it can download the resume and send mail to me.
+
+---
+
+Thank you for visiting my portfolio website!
