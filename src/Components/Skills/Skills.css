@@ -17,6 +17,7 @@
     margin-bottom: 3rem;
 }
 .name>:nth-child(1){
+    color: black;
     font-weight: bold;
     font-size: 2rem;
     align-items: center;
